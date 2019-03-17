@@ -50,10 +50,10 @@ namespace IndexBrowser
                 }
 
                 hex.Append("|");
-                hex.Append("\n");
+                hex.Append("\r\n");
             }
 
-            hex.Append(String.Format("{0,8:x8}\n", position));
+            hex.Append(String.Format("{0,8:x8}\r\n", position));
 
             return hex.ToString();
         }
