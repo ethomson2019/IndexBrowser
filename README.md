@@ -2,8 +2,8 @@
 
 A simple Windows application to display the contents of a Git repository's
 index.  You can open a repository and display the file contents in the index
-(the "stage").  By default, you view the files that are staged as the next
-commit.
+(the "staging area").  By default, you view the files that are staged as
+the next commit.
 
 ![Index Browser](docs/main.png)
 
